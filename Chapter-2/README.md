@@ -1,4 +1,4 @@
-# rmekala3-assignment-2
+# Basic Query operations
 
 Assuming the data is already loaded onto PostgreSQL, meaningful queries have been performed on the database. 
 
