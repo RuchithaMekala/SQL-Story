@@ -9,8 +9,7 @@ type.
 3. query3: SQL query to return the top 10 subreddits arranged by the number of
 comments. Calculated the average score for each of these subreddits and was rounded it to 2
 decimal places.
-4. query4: SQL query to print name, link_karma, comment_karma for users with
->1,000,000 average karma in descending order. Additionally, also have a column ‘label’
+4. query4: SQL query to print name, link_karma, comment_karma for users with >1,000,000 average karma in descending order. Additionally, also have a column ‘label’
 which shows 1 if the link_karma >= comment_karma, else 0
 
 5. query5: SQL query to give count of comments in subreddit types where the
