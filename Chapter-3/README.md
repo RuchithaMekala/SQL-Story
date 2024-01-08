@@ -14,10 +14,9 @@ After loading the data and conducting initial queries on the dataset, we impleme
  Unlike range partitioning, there is no built-in function for round-robin partitioning in PostgreSQL.
  
 - **Creating Partitions and Distributing Data:**
-  - Steps:
-    1. Iterate through the specified number of partitions.
-    2. Create individual inherited tables from the main partitioned table.
-    3. Insert data from the original table into each partition using a round-robin method. This involves calculating the row number and applying the modulo operation to distribute rows evenly across partitions.
+   - Iterate through the specified number of partitions.
+   - Create individual inherited tables from the main partitioned table.
+   - Insert data from the original table into each partition using a round-robin method. This involves calculating the row number and applying the modulo operation to distribute rows evenly across partitions.
 
 - **Dynamic Partitioning with Function and Trigger:**
   - `insert_function`: A PostgreSQL function designed to determine which partition receives a new row. It counts the rows in each partition and selects the one with the minimum count.
