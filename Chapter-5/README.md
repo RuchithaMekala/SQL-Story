@@ -1,4 +1,4 @@
-# rmekala3-assignment-5: NoSQL - Exploring Basic Functionalities in RocksDB
+# NoSQL - Exploring Basic Functionalities in RocksDB
 
 This README outlines the fundamental operations in RocksDB, including data loading, reading, iterating, and deleting data. Each operation is vital for understanding the efficient management of key-value pairs in RocksDB, and their implementations are provided in the `assignment5.cc` file.
 
